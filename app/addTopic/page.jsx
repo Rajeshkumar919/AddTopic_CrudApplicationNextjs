@@ -5,7 +5,7 @@ export default function AddTopic(){
         const [title,setTitle]=useState("");
     const [description,setDescription]=useState("");
 
-    const handleSubmit=() async (e)=>{
+    const handleSubmit=async (e)=>{
         e.preventDefault();
         if(!title || !description){
 
