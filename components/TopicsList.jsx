@@ -33,7 +33,7 @@ return (
     <div>{t.description}n</div>
  </div>
  <div className="flex gep-2">
-    <RemoveBtn/>
+    <RemoveBtn id={t._id}/>
     <Link href={`/editTopic/${t._id}`}></Link>
     <HiPencilAlt siz={24}/>
     </div>
