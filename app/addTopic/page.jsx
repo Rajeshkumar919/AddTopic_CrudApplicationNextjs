@@ -33,7 +33,7 @@ export default function AddTopic(){
         
     }catch(error){
 
-        console.log(error)
+        console.log(error);
     }
         
     }
